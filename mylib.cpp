@@ -80,3 +80,26 @@ void LigneDeCaractere(char c, int n)
     }
     std::cout << std::endl;
 }
+
+void Exo5()
+{
+    int n;
+    std::cout << "Veuiller donné un nombre :" << std::endl;
+    std::cin >> n;
+    if (EstBissextile(n)){
+        std::cout << "Oui l'année " << n << " est bissextile" << std::endl;
+    } else{
+        std::cout << "Non l'année " << n << " n'est pas bissextile" << std::endl;
+    }
+}
+
+bool EstBissextile(int n)
+{
+    if (n % 4 == 0 && n % 100 != 0){
+        return true;
+    } else if (n % 400 == 0){
+        return true;
+    } else{
+        return false;
+    }
+}

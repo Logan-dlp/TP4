@@ -42,4 +42,8 @@
      */
     void LigneDeCaractere(char c = '*', int n = 10);
 
+    void Exo5();
+
+    bool EstBissextile(int n);
+
 #endif // _MYLIB_HPP_

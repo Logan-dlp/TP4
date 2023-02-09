@@ -26,19 +26,20 @@
     bool paire(int n);
 
     /**
-     * @brief Execute n fois LigneDeCharatere().
+     * @brief Execute n fois LigneDeCaratere().
      */
     void Exo3();
 
     /**
-     * @brief Execute n fois LigneDeCharatere() et où on peut choisir le charactère afficher et son nombre sur une ligne.
+     * @brief Execute n fois LigneDeCaratere() et où on peut choisir le caractère afficher et son nombre sur une ligne.
      */
     void Exo3_1();
 
     /**
-     * @brief Retourne une ligne de 10 charactère.
-     * @param c Charatere retourné.
+     * @brief Retourne une ligne de caractère.
+     * @param c Caratere retourné.
+     * @param n Le nombre de fois ou le caractere est retourné.
      */
-    void LigneDeCaractere(char c, int n);
+    void LigneDeCaractere(char c = '*', int n = 10);
 
 #endif // _MYLIB_HPP_

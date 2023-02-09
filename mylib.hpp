@@ -31,7 +31,7 @@
     void Exo3();
 
     /**
-     * @brief Execute n fois LigneDeCharatere() et où on peut choisir le charactère afficher.
+     * @brief Execute n fois LigneDeCharatere() et où on peut choisir le charactère afficher et son nombre sur une ligne.
      */
     void Exo3_1();
 
@@ -39,6 +39,6 @@
      * @brief Retourne une ligne de 10 charactère.
      * @param c Charatere retourné.
      */
-    void LigneDeCharactere(char c);
+    void LigneDeCaractere(char c, int n);
 
 #endif // _MYLIB_HPP_

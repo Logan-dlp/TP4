@@ -53,26 +53,29 @@ void Exo3()
     std::cout << "Veiller renter le nombre de ligne :" << std::endl;
     std::cin >> n;
     for (int i = 0; i < n; ++i) {
-        LigneDeCharactere('*');
+        LigneDeCaractere('*', 10);
     }
 }
 
 void Exo3_1()
 {
     int n;
+    int m;
     char c;
-    std::cout << "Veiller renter le nombre de ligne :" << std::endl;
+    std::cout << "Veuiller renter le nombre de ligne :" << std::endl;
     std::cin >> n;
-    std::cout << "Veiller choisir le charactère :" << std::endl;
+    std::cout << "Veuiller choisir le caractère :" << std::endl;
     std::cin >> c;
+    std::cout << "Veuiller choisir le nombre de caractere :"<< std::endl;
+    std::cin >> m;
     for (int i = 0; i < n; ++i) {
-        LigneDeCharactere(c);
+        LigneDeCaractere(c, m);
     }
 }
 
-void LigneDeCharactere(char c)
+void LigneDeCaractere(char c, int n)
 {
-    for (int i = 0; i < 10; ++i) {
+    for (int i = 0; i < n; ++i) {
         std::cout << c;
     }
     std::cout << std::endl;

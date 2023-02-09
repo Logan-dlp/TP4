@@ -37,6 +37,7 @@
 
     /**
      * @brief Retourne une ligne de 10 charactère.
+     * @param c Charatere retourné.
      */
     void LigneDeCharactere(char c);
 

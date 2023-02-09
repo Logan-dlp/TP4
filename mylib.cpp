@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <array>
 #include "mylib.hpp"
 
 int abs(int x)
@@ -62,7 +63,7 @@ void Exo3_1()
     char c;
     std::cout << "Veiller renter le nombre de ligne :" << std::endl;
     std::cin >> n;
-    std::cout << "Veiller choisire le charactère :" << std::endl;
+    std::cout << "Veiller choisir le charactère :" << std::endl;
     std::cin >> c;
     for (int i = 0; i < n; ++i) {
         LigneDeCharactere(c);
@@ -71,5 +72,8 @@ void Exo3_1()
 
 void LigneDeCharactere(char c)
 {
-    std::cout << c << c << c << c << c << c << c << c << c << c << std::endl;
+    for (int i = 0; i < 10; ++i) {
+        std::cout << c;
+    }
+    std::cout << std::endl;
 }

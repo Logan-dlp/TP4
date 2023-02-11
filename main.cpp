@@ -8,6 +8,7 @@ int main(int argc, char** argv)
     // Exo2();
     // Exo3();
     // Exo3_1();
-    Exo5();
+    // Exo5();
+    Exo6();
     return 0;
 }

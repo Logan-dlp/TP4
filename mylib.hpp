@@ -42,8 +42,29 @@
      */
     void LigneDeCaractere(char c = '*', int n = 10);
 
+    /**
+     * @brief Dit si une année est bissextile ou non.
+     */
     void Exo5();
 
+    /**
+     * @brief Dit si une année est bissextile ou non.
+     * @param n L'année.
+     * @return {Bool} Si l'année est bien bissextile.
+     */
     bool EstBissextile(int n);
+
+    /**
+     * @brief Donne une multiplication sans l'opérateur.
+     */
+    void Exo6();
+
+    /**
+     * @brief Donne une multiplication sans l'opérateur.
+     * @param x Nombre.
+     * @param y Autre nombre.
+     * @return {float} Donne le résultat de la multiplication.
+     */
+    float Multiplication(float x, float y);
 
 #endif // _MYLIB_HPP_

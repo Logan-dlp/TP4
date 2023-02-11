@@ -103,3 +103,23 @@ bool EstBissextile(int n)
         return false;
     }
 }
+
+void Exo6()
+{
+    float x;
+    float y;
+    std::cout << "Veuillez rentrée un nombre :" << std::endl;
+    std::cin >> x;
+    std::cout << "Veuillez rentrée un autre nombre :" << std::endl;
+    std::cin >> y;
+    std::cout << Multiplication(x, y) << std::endl;
+}
+
+float Multiplication(float x, float y)
+{
+    float n = 0;
+    for (int i = 0; i < y; ++i) {
+        n = n + x;
+    }
+    return n;
+}

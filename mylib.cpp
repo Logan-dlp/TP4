@@ -123,3 +123,21 @@ float Multiplication(float x, float y)
     }
     return n;
 }
+
+void Exo7()
+{
+    float i = 0;
+    float j = 0;
+    float k = 0;
+    std::cout << "Veuillez donner un nombre :" << std::endl;
+    std::cin >> i;
+    std::cout << "Veuillez donner un autre nombre :" << std::endl;
+    std::cin >> j;
+    while (i >= j)
+    {
+        i = i - j;
+        k = k + 1;
+    }
+
+    std::cout << k << " Reste : " << i << std::endl;
+}

@@ -67,4 +67,9 @@
      */
     float Multiplication(float x, float y);
 
+    /**
+     * @brief Donne une division et son reste sans les opérateurs.
+     */
+    void Exo7();
+
 #endif // _MYLIB_HPP_

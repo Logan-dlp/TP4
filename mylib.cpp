@@ -95,13 +95,13 @@ void Exo5()
 
 bool EstBissextile(int n)
 {
+    bool b = false;
     if (n % 4 == 0 && n % 100 != 0){
-        return true;
+        b = true;
     } else if (n % 400 == 0){
-        return true;
-    } else{
-        return false;
+        b = true;
     }
+    return i;
 }
 
 void Exo6()
@@ -140,4 +140,31 @@ void Exo7()
     }
 
     std::cout << k << " Reste : " << i << std::endl;
+}
+
+void Exo8()
+{
+    int nb = 0;
+    int nbDeNb = 0;
+
+    sommeDesNb(nb, nbDeNb);
+    std::cout << std::endl;
+}
+
+void Exo9()
+{
+    int nb = 0;
+
+    std::cout << "Entrez un nombre entier : ";
+    std::cin >> nb;
+    std::cout << lesDiviseurs(nb) << std::endl;
+}
+
+void Exo10()
+{
+    int nb = 0;
+
+    std::cout << "Entrez un nombre entier : ";
+    std::cin >> nb;
+    std::cout << nombreParfait(nb) << std::endl;
 }

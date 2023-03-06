@@ -10,6 +10,9 @@ int main(int argc, char** argv)
     // Exo3_1();
     // Exo5();
     // Exo6();
-    Exo7();
+    // Exo7();
+    // Exo8();
+    // Exo9()
+    // Exo10();
     return 0;
 }

@@ -72,4 +72,21 @@
      */
     void Exo7();
 
+    /**
+    * @brief Est un programme qui permet à un utilisateur de saisir une suite d’entiers et de faire leur somme jusqu’à ce qu’il tape “0”.
+    À la fin du programme, on affichera également à la fin du programme le nombre de saisie qu’a réalisé l’utilisateur.
+    */
+    void Exo8();
+
+    /**
+    * @brief Est un programme qui détermine tous les diviseurs propres d’un nombre entier qui a été saisie par l’utilisateur
+    */
+    void Exo9();
+
+    /**
+     * @brief Écrire un programme qui détermine si un nombre est “parfait”. Un nombre est dit parfait s’il est la somme de ses diviseurs propres.
+    */
+    void Exo10();
+
+
 #endif // _MYLIB_HPP_
